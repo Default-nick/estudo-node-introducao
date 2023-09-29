@@ -1,0 +1,27 @@
+POST http://localhost:2222/videos
+Content-Type: application/json
+
+{
+    "title": "Video 2183712",
+    "description": "Descrição",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:2222/videos
+
+###
+
+PUT http://localhost:2222/videos/75fdd360-5ac4-4911-9e2c-e1189f4ce428
+Content-Type: application/json
+
+{
+    "title": "Video Editado",
+    "description": "Oi, este vídeo foi editado",
+    "duration": 120
+}
+
+###
+
+DELETE  http://localhost:2222/videos/75fdd360-5ac4-4911-9e2c-e1189f4ce428
