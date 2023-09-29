@@ -1,12 +1,3 @@
-// import { createServer } from "node:http";
-
-// const server = createServer((request, response) => {
-//   response.write("Azul");
-//   return response.end();
-// });
-
-// server.listen(2222);
-
 import { fastify } from "fastify";
 import { DatabasePostgres } from "./database-postgres.js";
 
